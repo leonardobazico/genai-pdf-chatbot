@@ -21,8 +21,16 @@ A chatbot that can answer questions about PDF documents using OpenAI's language 
 
 1. Set up your environment:
 
+   For the first setup, you need to create a virtual environment:
+
    ```bash
    uv venv
+   ```
+
+   Once you have it created, activate it with:
+
+   ```bash
+   source .venv/bin/activate
    ```
 
 2. Install dependencies:
@@ -42,7 +50,7 @@ A chatbot that can answer questions about PDF documents using OpenAI's language 
 Start the Streamlit server:
 
    ```bash
-   uv streamlit run chatbot.py
+   streamlit run chatbot.py
    ```
 
 ## Usage
